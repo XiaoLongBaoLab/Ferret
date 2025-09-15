@@ -20,7 +20,15 @@ modules:
   - type: rpm-ostree
     install:
       - rclone
-      - fzf
+      - fzf # for ujust
+      - gum # for ujust
+      - fastfetch
+      - tuned # power mgmt
+      - tuned-ppd # power mgmt
+      - lm_sensors
+      - lshw
+      
+      
 #  - type: default-flatpaks
 #    configurations:
 #      - notify: true # Send notification after install/uninstall is finished (true/false)
