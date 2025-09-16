@@ -18,6 +18,10 @@ modules:
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
   - type: rpm-ostree
+    # repos:
+    #  - https://copr.fedorainfracloud.org/coprs/secureblue/run0edit/repo/fedora-%OS_VERSION%/secureblue-run0edit-fedora-%OS_VERSION%.repo
+    # - https://copr.fedorainfracloud.org/coprs/lilay/topgrade/
+    # - https://copr.fedorainfracloud.org/coprs/ublue-os/packages/
     install:
       - rclone
       - fzf # for ujust
@@ -27,6 +31,28 @@ modules:
       - tuned-ppd # power mgmt
       - lm_sensors
       - lshw
+      - ryzenadj
+      - tailscale
+      - sysstat
+      - btop
+      - duf
+      - lzip
+      - p7zip
+      - p7zip-plugins
+      - rar
+      - glow
+      - topgrade
+      - stress-ng
+      - snapper
+      - btrfs-assistant
+      - lsb_release
+      - uupd
+      # - ds-inhibit ?
+      - hhd
+      - hhd-ui
+      - adjustor
+      - powerbuttond
+      
       
       
   - type: default-flatpaks
