@@ -30,6 +30,7 @@ modules:
       - fastfetch
       - tuned # power mgmt
       - tuned-ppd # power mgmt
+      - ddcutil # power mgmt
       - lm_sensors
       - lshw
       - tailscale
