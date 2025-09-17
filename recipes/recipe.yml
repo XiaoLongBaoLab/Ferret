@@ -70,5 +70,7 @@ modules:
           - org.kde.filelight
           - com.usebottles.bottles
           - com.ranfdev.DistroShelf
+          - org.keepassxc.KeePassXC
+          - io.anytype.anytype
       
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
