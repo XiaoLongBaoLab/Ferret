@@ -19,7 +19,7 @@ modules:
 
   - type: rpm-ostree
     repos:
-    #  - https://copr.fedorainfracloud.org/coprs/secureblue/run0edit/repo/fedora-%OS_VERSION%/secureblue-run0edit-fedora-%OS_VERSION%.repo
+    - https://copr.fedorainfracloud.org/coprs/bazzite-org/bazzite/repo/fedora-%OS_VERSION%/bazzite-org-bazzite-fedora-%OS_VERSION%.repo
     - https://copr.fedorainfracloud.org/coprs/lilay/topgrade/repo/fedora-%OS_VERSION%/lilay-topgrade-fedora-%OS_VERSION%.repo
     - https://copr.fedorainfracloud.org/coprs/ublue-os/packages/repo/fedora-%OS_VERSION%/ublue-os-fedora-%OS_VERSION%.repo
     - https://copr.fedorainfracloud.org/coprs/hhd-dev/hhd/repo/fedora-%OS_VERSION%/hhd-dev-hhd-fedora-%OS_VERSION%.repo
