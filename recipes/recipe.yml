@@ -54,6 +54,9 @@ modules:
       - ryzenadj
       - topgrade
       - uupd
+      - upower
+      - upower-libs
+      - vpower
 
       
       
