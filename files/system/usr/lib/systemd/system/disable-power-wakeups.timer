@@ -1,0 +1,9 @@
+[Unit]
+Description=Disable power wakeups Trigger
+
+[Timer]
+RandomizedDelaySec=1m
+OnStartupSec=1m
+
+[Install]
+WantedBy=timers.target
