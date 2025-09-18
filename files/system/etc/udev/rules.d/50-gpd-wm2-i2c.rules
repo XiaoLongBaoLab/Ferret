@@ -1,0 +1,2 @@
+# Broader rule: allow seat users + i2c group access to ALL i2c-dev nodes
+SUBSYSTEM=="i2c-dev", KERNEL=="i2c-[0-9]*", MODE="0660", GROUP="i2c", TAG+="uaccess"
