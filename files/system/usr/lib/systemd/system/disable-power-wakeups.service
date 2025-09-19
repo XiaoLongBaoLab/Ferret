@@ -1,8 +1,11 @@
 [Unit]
 Description=Disable power wakeups to allow sleep.
-Wants=dbus.service
-After=dbus.service
+After=multi-user.target
 
 [Service]
 Type=oneshot
-ExecStart=echo disabled | tee /sys/bus/i2c/devices/i2c-PNP0C50\:00/power/wakeup # touchpad ?
+ExecStart=/bin/bash -c 'echo disabled | tee /sys/bus/i2c/devices/i2c-PNP0C50:00/power/wakeup'
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
