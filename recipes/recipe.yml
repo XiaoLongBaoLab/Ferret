@@ -58,22 +58,6 @@ modules:
       - upower
       - upower-libs
       - vpower
-      #libvirt
-      - libvirt
-      - libvirt-nss
-      - qemu
-      - qemu-char-spice
-      - qemu-device-display-virtio-gpu
-      - qemu-device-display-virtio-vga
-      - qemu-device-usb-redirect
-      - qemu-img
-      - qemu-system-x86-core
-      - qemu-user-binfmt
-      - qemu-user-static
-      - virt-install
-      - virt-manager
-      - virt-v2v
-      - virt-viewer
 
   - type: script
     scripts:
