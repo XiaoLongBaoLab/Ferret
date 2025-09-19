@@ -75,7 +75,7 @@ modules:
       - virt-v2v
       - virt-viewer
 
-  - type:
+  - type: script
     scripts:
       - enabledisablepowerwakeupsservice.sh
 
