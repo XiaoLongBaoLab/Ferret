@@ -69,8 +69,8 @@ modules:
   - type: akmods
     install:
       - xone
-      - ryzen-smu
-      - gpd-fan
+      #- ryzen-smu
+      #- gpd-fan
     
   - type: script
     scripts:
