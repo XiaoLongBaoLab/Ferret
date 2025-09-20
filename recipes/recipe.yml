@@ -59,7 +59,7 @@ modules:
       - upower
       - upower-libs
       - vpower
-      - kmod-xone # xone not found
+#      - kmod-xone # xone not found
       - xone-kmod-common
       - ryzen-smu
       - kmod-ryzen-smu
