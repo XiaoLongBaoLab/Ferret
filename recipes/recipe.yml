@@ -71,7 +71,7 @@ modules:
     install:
       - xone
       - ryzen-smu
-      - gpd-fan
+      #- gpd-fan # build failed
     
   - type: script
     scripts:
