@@ -68,9 +68,9 @@ modules:
 
   - type: akmods
     install:
-      - kmod-ryzen-smu
-      - kmod-gpd-fan
-      - kmod-xone
+      - xone
+      - ryzen-smu
+      - gpd-fan
     
   - type: script
     scripts:
