@@ -70,7 +70,7 @@ modules:
     base: bazzite
     install:
       - xone
-      - ryzen-smu
+      #- ryzen-smu
       #- gpd-fan # build failed
     
   - type: script
