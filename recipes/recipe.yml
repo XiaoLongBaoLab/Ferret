@@ -59,9 +59,9 @@ modules:
       - upower
       - upower-libs
       - vpower
-      - *xone*
-      - *ryzen-smu*
-      - *gpd-fan*
+      - xone
+      - ryzen-smu
+      - gpd-fan
 
   - type: script
     scripts:
