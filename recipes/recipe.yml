@@ -61,16 +61,17 @@ modules:
       - vpower
 #      - kmod-xone # xone not found
 #      - xone-kmod-common
-      - ryzen-smu
-      - kmod-ryzen-smu
-      - gpd-fan
-      - kmod-gpd-fan
+#      - ryzen-smu
+#      - kmod-ryzen-smu
+#      - gpd-fan
+#      - kmod-gpd-fan
 
   - type: akmods
+    base: bazzite
     install:
       - xone
-      #- ryzen-smu
-      #- gpd-fan
+      - ryzen-smu
+      - gpd-fan
     
   - type: script
     scripts:
