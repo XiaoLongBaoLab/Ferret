@@ -59,10 +59,10 @@ modules:
       - upower
       - upower-libs
       - vpower
-#      - ryzen-smu
-#      - kmod-ryzen-smu
-#      - gpd-fan
-#      - kmod-gpd-fan
+      - ryzen-smu
+      - kmod-ryzen-smu
+      - gpd-fan
+      - kmod-gpd-fan
 
   - type: akmods
     install:
