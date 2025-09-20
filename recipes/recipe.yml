@@ -66,6 +66,12 @@ modules:
       - gpd-fan
       - kmod-gpd-fan
 
+  - type: akmods
+    install:
+      - ryzen-smu
+      - gpd-fan
+      - xone
+    
   - type: script
     scripts:
       - enabledisablepowerwakeupsservice.sh
