@@ -58,6 +58,7 @@ modules:
       - upower
       - upower-libs
       - vpower
+      - xone
 
   - type: script
     scripts:
