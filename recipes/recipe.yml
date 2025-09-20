@@ -59,9 +59,12 @@ modules:
       - upower
       - upower-libs
       - vpower
-      - xone
+      - kmod-xone # xone not found
+      - xone-kmod-common
       - ryzen-smu
+      - kmod-ryzen-smu
       - gpd-fan
+      - kmod-gpd-fan
 
   - type: script
     scripts:
