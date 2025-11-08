@@ -39,8 +39,8 @@ modules:
       - btop
       - duf
       - lzip
-      - p7zip
-      - p7zip-plugins
+      # - p7zip
+      # - p7zip-plugins
       - rar
       - glow
       - stress-ng
