@@ -17,7 +17,7 @@ modules:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
-  - type: rpm-ostree
+  - type: dnf
     repos:
     - https://copr.fedorainfracloud.org/coprs/bazzite-org/bazzite/repo/fedora-%OS_VERSION%/bazzite-org-bazzite-fedora-%OS_VERSION%.repo
     - https://copr.fedorainfracloud.org/coprs/lilay/topgrade/repo/fedora-%OS_VERSION%/lilay-topgrade-fedora-%OS_VERSION%.repo
