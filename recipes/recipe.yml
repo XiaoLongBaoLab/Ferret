@@ -21,11 +21,16 @@ modules:
     repos:
       copr:
         enable:
-          - bazzite-org/bazzite
-          - lilay/topgrade
-          - ublue-os/packages
-          - ublue-os/akmods
-          - hhd-dev/hhd
+          - name: bazzite-org/bazzite
+            chroot: fedora-43-x86_64
+          - name: lilay/topgrade
+            chroot: fedora-43-x86_64
+          - name: ublue-os/packages
+            chroot: fedora-43-x86_64
+          - name: ublue-os/akmods
+            chroot: fedora-43-x86_64
+          - name: hhd-dev/hhd
+            chroot: fedora-43-x86_64
     install:
       packages:
         - rclone
