@@ -19,50 +19,53 @@ modules:
 
   - type: dnf
     repos:
-    - https://copr.fedorainfracloud.org/coprs/bazzite-org/bazzite/repo/fedora-%OS_VERSION%/bazzite-org-bazzite-fedora-%OS_VERSION%.repo
-    - https://copr.fedorainfracloud.org/coprs/lilay/topgrade/repo/fedora-%OS_VERSION%/lilay-topgrade-fedora-%OS_VERSION%.repo
-    - https://copr.fedorainfracloud.org/coprs/ublue-os/packages/repo/fedora-%OS_VERSION%/ublue-os-fedora-%OS_VERSION%.repo
-    - https://copr.fedorainfracloud.org/coprs/ublue-os/akmods/repo/fedora-%OS_VERSION%/ublue-akmods-fedora-%OS_VERSION%.repo
-    - https://copr.fedorainfracloud.org/coprs/hhd-dev/hhd/repo/fedora-%OS_VERSION%/hhd-dev-hhd-fedora-%OS_VERSION%.repo
+      copr:
+        enable:
+          - bazzite-org/bazzite
+          - lilay/topgrade
+          - ublue-os/packages
+          - ublue-os/akmods
+          - hhd-dev/hhd
     install:
-      - rclone
-      - fzf # for ujust
-      - gum # for ujust
-      - fastfetch
-      - tuned # power mgmt
-      - tuned-ppd # power mgmt
-      - ddcutil # power mgmt
-      - lm_sensors
-      - lshw
-      - tailscale
-      - sysstat
-      - btop
-      - duf
-      - lzip
-      # - p7zip
-      # - p7zip-plugins
-      - rar
-      - glow
-      - stress-ng
-      - snapper
-      - btrfs-assistant
-      - lsb_release
-      # - ds-inhibit ?
-      #copr
-      - hhd
-      - hhd-ui
-      - adjustor
-      - powerbuttond
-      - ryzenadj
-      - topgrade
-      - uupd
-      - upower
-      - upower-libs
-      - vpower
-      - ryzen-smu
-      - kmod-ryzen-smu
-      - gpd-fan
-      - kmod-gpd-fan
+      packages:
+        - rclone
+        - fzf # for ujust
+        - gum # for ujust
+        - fastfetch
+        - tuned # power mgmt
+        - tuned-ppd # power mgmt
+        - ddcutil # power mgmt
+        - lm_sensors
+        - lshw
+        - tailscale
+        - sysstat
+        - btop
+        - duf
+        - lzip
+        # - p7zip
+        # - p7zip-plugins
+        - rar
+        - glow
+        - stress-ng
+        - snapper
+        - btrfs-assistant
+        - lsb_release
+        # - ds-inhibit ?
+        #copr
+        - hhd
+        - hhd-ui
+        - adjustor
+        - powerbuttond
+        - ryzenadj
+        - topgrade
+        - uupd
+        - upower
+        - upower-libs
+        - vpower
+        - ryzen-smu
+        - kmod-ryzen-smu
+        - gpd-fan
+        - kmod-gpd-fan
 
   - type: akmods
     install:
