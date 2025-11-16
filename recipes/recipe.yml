@@ -67,7 +67,7 @@ modules:
         - upower
         - upower-libs
         - vpower
-        #- ryzen-smu
+        - ryzen-smu
         #- kmod-ryzen-smu
         #- gpd-fan
         #- kmod-gpd-fan
