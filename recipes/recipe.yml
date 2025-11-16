@@ -75,7 +75,7 @@ modules:
   - type: akmods
     install:
       - xone
-      - ryzen-smu
+      - kmod-ryzen-smu
       #- gpd-fan # build failed
     
   - type: script
