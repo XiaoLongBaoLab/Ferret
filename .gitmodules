@@ -1,0 +1,3 @@
+[submodule "firmware"]
+	path = files/system/
+	url = https://github.com/ublue-os/bazzite-firmware-nonfree
