@@ -72,9 +72,9 @@ modules:
         #- gpd-fan
         #- kmod-gpd-fan
 
-  #- type: akmods
-    #install:
-      #- xone
+  - type: akmods
+    install:
+      - xone
       #- kmod-ryzen-smu
       #- gpd-fan # build failed
     
