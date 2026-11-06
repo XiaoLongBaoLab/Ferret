@@ -17,15 +17,11 @@ modules:
       - source: system
         destination: / # copies files/system/* (* means everything inside it) into your image's root folder /
 
+  - type: script
+    scripts:
+      - enable-copr-repos.sh # enables COPRs with the base image's fedora-XX chroot
+
   - type: dnf
-    repos:
-      copr:
-        enable:
-          - bazzite-org/bazzite
-          - lilay/topgrade
-          - ublue-os/packages
-          - ublue-os/akmods
-          - hhd-dev/hhd
     install:
       packages:
         - rclone
