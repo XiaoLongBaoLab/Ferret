@@ -69,6 +69,5 @@ modules:
       # kmods to install are listed in the script: xone
       # disabled: kmod-ryzen-smu, gpd-fan (build failed)
       - install-kmods.sh
-      - enabledisablepowerwakeupsservice.sh
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
