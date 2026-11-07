@@ -9,9 +9,6 @@ CHROOT="fedora-$(rpm -E %fedora)-$(uname -m)"
 
 for repo in \
     bazzite-org/bazzite \
-    lilay/topgrade \
-    ublue-os/packages \
-    ublue-os/akmods \
     hhd-dev/hhd; do
     dnf -y copr enable "$repo" "$CHROOT"
 done
