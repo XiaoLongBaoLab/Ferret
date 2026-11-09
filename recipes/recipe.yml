@@ -25,12 +25,8 @@ modules:
     install:
       packages:
         - rclone
-        - fzf # for ujust
         - gum # for ujust
         - fastfetch
-        - tuned # power mgmt
-        - tuned-ppd # power mgmt
-        - ddcutil # power mgmt
         - lm_sensors
         - lshw
         - tailscale
@@ -40,31 +36,24 @@ modules:
         - lzip
         # - p7zip
         # - p7zip-plugins
-        - rar
         - glow
         - stress-ng
         - snapper
         - btrfs-assistant
-        - lsb_release
         # - ds-inhibit ?
         #copr
         - hhd
-        - adjustor
         - powerbuttond
         - ryzenadj
-        - upower
-        - upower-libs
         - vpower
         #- ryzen-smu
         #- kmod-ryzen-smu
-        #- gpd-fan
-        #- kmod-gpd-fan
 
   - type: script
     scripts:
       # replaces the akmods module (broken on F45: hardcodes rpm-ostree install)
       # kmods to install are listed in the script: xone
-      # disabled: kmod-ryzen-smu, gpd-fan (build failed)
+      # not installed: kmod-ryzen-smu (no prebuilt kmod for this kernel); gpd-fan is in the kernel
       - install-kmods.sh
       - disable-copr-repos.sh
 
