@@ -49,7 +49,6 @@ modules:
         # - ds-inhibit ?
         #copr
         - hhd
-        - hhd-ui
         - adjustor
         - powerbuttond
         - ryzenadj
