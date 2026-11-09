@@ -67,6 +67,7 @@ modules:
       # kmods to install are listed in the script: xone
       # disabled: kmod-ryzen-smu, gpd-fan (build failed)
       - install-kmods.sh
+      - disable-copr-repos.sh
 
   - type: systemd
     system:
